@@ -1,0 +1,43 @@
+.george {
+    padding: 10px 0;
+    &__block {
+        text-align: center;
+    }
+    &__title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 50px;
+            line-height: 60.22px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #0F303F;
+            margin-bottom: 15px;
+            &-first {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+    }
+    &__p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #0F303F;
+        padding: 0 430px 0;
+        margin-bottom: 50px;
+    }
+}
+
+.back__george {
+    background: url('.././assets/george/backGeorge.png') no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    height: 100vh;
+}
